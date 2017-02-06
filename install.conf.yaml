@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.gitignore_global: gitignore_global
+    ~/.emacs.d/init.el: emacs/init.el
+    
+- shell:
+    - [git submodule update --init --recursive, Installing submodules...]
+    - [git config --global core.excludesfile ~/.gitignore_global, Setting gitignore...]
