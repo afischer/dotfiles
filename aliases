@@ -44,6 +44,7 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gs='git status'
 alias gp='git push'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 
 # Color grep
@@ -69,3 +70,5 @@ alias scrlock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Reso
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+alias snworks="ssh dpnandrew@extern-0385728277e266af6.getsnworks.com"
