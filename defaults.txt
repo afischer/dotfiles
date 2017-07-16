@@ -1,0 +1,141 @@
+  502  defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
+  502  defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
+  502  defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
+  503  defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+  503  defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+  504  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+  504  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+  505  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+  505  defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+  506  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+  506  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+  507  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+  507  defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+  508  defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+  508  defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+  509  defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+  509  defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+  510  defaults write com.apple.LaunchServices LSQuarantine -bool false
+  510  defaults write com.apple.LaunchServices LSQuarantine -bool false
+  512  defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+  512  defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+  513  sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+  515  defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+  515  defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+  516  defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+  516  defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+  517  defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+  517  defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+  518  defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+  518  defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+  519  defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+  520  defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+  522  defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+  523  defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+  524  defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+  525  defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+  526  defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+  527  defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+  528  defaults write NSGlobalDomain KeyRepeat -int 1
+  529  defaults write NSGlobalDomain InitialKeyRepeat -int 10
+  530  defaults write com.apple.screensaver askForPassword -int 1
+  531  defaults write com.apple.screensaver askForPasswordDelay -int 0
+  532  defaults write NSGlobalDomain AppleFontSmoothing -int 1
+  533  sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
+  534  defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+  535  defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+  536  defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+  537  defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+  538  defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+  539  defaults write com.apple.finder ShowStatusBar -bool true
+  540  defaults write com.apple.finder ShowPathbar -bool true
+  541  defaults write com.apple.finder _FXSortFoldersFirst -bool true
+  542  defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+  543  defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+  544  defaults write NSGlobalDomain com.apple.springing.enabled -bool true
+  545  defaults write NSGlobalDomain com.apple.springing.delay -float 0.1
+  546  defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+  547  defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+  548  defaults write com.apple.frameworks.diskimages skip-verify -bool true
+  549  defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
+  550  defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
+  551  defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+  552  defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
+  555  defaults write com.apple.finder FXInfoPanesExpanded -dict   General -bool true   OpenWith -bool true   Privileges -bool true
+  556  defaults write com.apple.dock mouse-over-hilite-stack -bool true
+  557  defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
+  558  defaults write com.apple.dock expose-animation-duration -float 0.1
+  559  defaults write com.apple.dock expose-group-by-app -bool true
+  560  defaults write com.apple.dashboard mcx-disabled -bool true
+  561  defaults write com.apple.dock mru-spaces -bool false
+  562  defaults write com.apple.dock autohide -bool true
+  563  defaults write com.apple.dock showhidden -bool true
+  566  defaults write com.apple.Safari WebKitTabToLinksPreferenceKey -bool true
+  567  defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2TabsToLinks -bool true
+  568  defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+  569  defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+  570  defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+  571  defaults write com.apple.Safari ShowSidebarInTopSites -bool false
+  572  defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
+  573  defaults write com.apple.Safari IncludeDevelopMenu -bool true
+  574  defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+  575  defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+  576  defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+  577  defaults write com.apple.Safari WebContinuousSpellCheckingEnabled -bool true
+  578  defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
+  579  defaults write com.apple.Safari Instaldefaults write com.apple.Safar -bool true
+  580  defaults write com.apple.mail AddressesIncludeNameOnPasteboard -defaults write com.apple.maim.apple.mail NSUserKeyEquivalents -dict-add "defaults write com.apple.write com.apple.mail DisableInlineAttachmentViewing -bool true
+  582  defaults write com.apple.spotlight orderedItems -array   '{"enabled" = 1;"name" = "APPLICATIONS";}'   '{"enabled" = 1;"name" = "SYSTEM_PREFS";}'   '{"enabled" = 1;"name" = "DIRECTORIES";}'   '{"enabled" = 1;"name" = "PDF";}'   '{"enabled" = 1;"name" = "FONTS";}'   '{"enabled" = 0;"name" = "DOCUMENTS";}'   '{"enabled" = 0;"name" = "MESSAGES";}'   '{"enabled" = 0;"name" = "CONTACT";}'   '{"enabled" = 0;"name" = "EVENT_TODO";}'   '{"enabled" = 0;"name" = "IMAGES";}'   '{"enabled" = 0;"name" = "BOOKMARKS";}'   '{"enabled" = 0;"name" = "MUSIC";}'   '{"enabled" = 0;"name" = "MOVIES";}'   '{"enabled" = 0;"name" = "PRESENTATIONS";}'   '{"enabled" = 0;"name" = "SPREADSHEETS";}'   '{"enabled" = 0;"name" = "SOURCE";}'   '{"enabled" = 0;"name" = "MENU_DEFINITION";}'   '{"enabled" = 0;"name" = "MENU_OTHER";}'   '{"enabled" = 0;"name" = "MENU_CONVERSION";}'   '{"enabled" = 0;"name" = "MENU_EXPRESSION";}'   '{"enabled" = 0;"name" = "MENU_WEBSEARCH";}'   '{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
+  586  defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+  587  defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+  589  defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
+  590  defaults write com.apple.ActivityMonitor ShowCategory -int 0
+  591  defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
+  592  defaults write com.apple.ActivityMonitor SortDirection -int 0
+  593  defaults write com.apple.addressbook ABShowDebugMenu -bool true
+  594  defaults write com.apple.TextEdit RichText -int 0
+  595  defaults write com.apple.TextEdit PlainTextEncoding -int 4
+  596  defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+  597  defaults write com.apple.appstore WebKitDeveloperExtras -bool true
+  598  defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
+  599  defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+  600  defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
+  601  defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
+  602  defaults write com.apple.commerce AutoUpdate -bool true
+  603  defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
+  605  defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnablediMessage" -bool false
+  606  defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+  607  defaults write com.google.Chrome DisablePrintPreview -bool true
+  608  defaults write com.google.Chrome.canary DisablePrintPreview -bool true
+  609  defaults write org.m0k.transmission BlocklistNew -bool true
+  610  defaults write org.m0k.transmission BlocklistURL -string "http://john.bitsurge.net/public/biglist.p2p.gz"
+  611  defaults write org.m0k.transmission BlocklistAutoUpdate -bool true
+  612  defaults write org.m0k.transmission RandomPort -bool true
+  613  defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
+  500  defaults write NSGlobalDomain InitialKeyRepeat -int 10
+  501  defaults write NSGlobalDomain InitialKeyRepeat -int 30
+  501  defaults write NSGlobalDomain InitialKeyRepeat -int 30
+  501  defaults write NSGlobalDomain InitialKeyRepeat -int 30
+  501  defaults write NSGlobalDomain InitialKeyRepeat -int 30
+  502  defaults write NSGlobalDomain InitialKeyRepeat -int 100
+  502  defaults write NSGlobalDomain InitialKeyRepeat -int 100
+  503  defaults write NSGlobalDomain InitialKeyRepeat -int 1000
+  503  defaults write NSGlobalDomain InitialKeyRepeat -int 1000
+  499  defaults write NSGlobalDomain InitialKeyRepeat -int 1000
+  500  defaults write NSGlobalDomain InitialKeyRepeat -int 10
+  501  defaults write NSGlobalDomain InitialKeyRepeat -int 50
+  499  defaults write NSGlobalDomain InitialKeyRepeat -int 50
+  500  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+  501  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+  502  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+  503  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+  499  defaults write NSGlobalDomain InitialKeyRepeat -int 50
+  529  defaults write com.apple.finder CreateDesktop false
+  531  defaults write com.apple.finder CreateDesktop true
+  535  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  535  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  537  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  537  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  538  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+  501  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
+  538  defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
